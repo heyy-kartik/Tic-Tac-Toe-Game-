@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+ body {
+    background-color: #DDDBF1;
+    text-align: center;
+ }
+
+ .Maindiv {
+    height:70vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.game  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width:60vmin;
+    gap :10px;
+   
+ }
+ .box{
+    height: 18vmin;
+    width: 18vmin;
+    border: 1px solid black;
+   border-radius: 5px;
+   background-color: aliceblue;
+   font-size: xx-large;
+   color: #383F51;
+ }
+
+ .btnReset{
+    color :white;
+    background-color:#383F51 ;
+    border-radius: 5px;
+    padding : 20px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.turn {
+    font-size: 20px;
+    color: #3C4F76;
+    position: relative;
+    right: 240px;
+    font-weight: 400;
+   
+}
+.controller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :20px;
+   
+}
+.newGame{
+    color :white;
+    background-color:#383F51 ;
+    border-radius: 5px;
+    padding : 20px 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
